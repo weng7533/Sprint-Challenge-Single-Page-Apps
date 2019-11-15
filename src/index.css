@@ -37,3 +37,21 @@ main {
 header h1 {
   text-align: center;
 }
+
+.card {
+  list-style-type: none;
+  margin: 1rem;
+  border: 1px green solid;
+  width: 30%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.character-list{
+  display: flex;
+  justify-content: space-around;
+  
+  flex-wrap: wrap;
+}
