@@ -9,6 +9,8 @@ background: url('./img/bg.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 color: whitesmoke;
+width: 100%;
+min-height: 50vh;
 
 `
 

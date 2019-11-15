@@ -69,6 +69,7 @@ header h1 {
   background-size: cover;
   color: whitesmoke;
   width: 100%;
+  min-height: 50vh;
 }
 
 input{
