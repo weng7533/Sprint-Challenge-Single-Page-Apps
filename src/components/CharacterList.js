@@ -2,6 +2,16 @@ import React, { useEffect, useState } from "react";
 import axios from 'axios';
 import CharacterCard from './CharacterCard';
 import SearchForm from './SearchForm';
+import styled from 'styled-components';
+
+const Listpagestyle = styled.div`
+background: url('./img/bg.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+color: whitesmoke;
+
+`
+
 export default function CharacterList() {
   // TODO: Add useState to track data from useEffect
   const [data, setData] = useState([]);
@@ -28,7 +38,7 @@ export default function CharacterList() {
   }
 
   return (
-    <>
+    <Listpagestyle>
 
       <SearchForm searchHandler={searchHandler} />
 
@@ -42,6 +52,6 @@ export default function CharacterList() {
         }
       </section>
 
-    </>
+    </Listpagestyle>
   );
 }

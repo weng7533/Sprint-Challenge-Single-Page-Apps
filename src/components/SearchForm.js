@@ -1,9 +1,18 @@
 import React, { useState } from "react";
 import styled from 'styled-components';
+
+const InputStyle = styled.section`
+
+    margin: 1rem;
+  display: flex;
+  justify-content: center;
+`;
+
+
 export default function SearchForm(props) {
 
   return (
-    <section className="search-form">
+    <InputStyle className="search-form">
 
       <form className="search">
         <input
@@ -16,6 +25,6 @@ export default function SearchForm(props) {
           autoComplete="off"
         />
       </form>
-    </section>
+    </InputStyle>
   );
 }

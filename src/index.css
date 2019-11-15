@@ -26,10 +26,12 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+ 
 }
 
 .page-view {
   min-height: 40vh;
+  
 }
 
 .grid-view div.card.ui {
@@ -62,5 +64,13 @@ header h1 {
   justify-content: space-around;
   
   flex-wrap: wrap;
-  /* background-image:  url('./img/bg.jpg'); */
+  background: url('./img/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: whitesmoke;
+  width: 100%;
+}
+
+input{
+  text-align: center;
 }
