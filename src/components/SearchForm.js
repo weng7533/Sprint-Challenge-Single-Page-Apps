@@ -9,10 +9,9 @@ export default function SearchForm(props) {
         <input
           type="text"
           onChange={props.searchHandler}
-
           name="name"
           tabIndex="0"
-          className="prompt search-name"
+
           placeholder="search by name"
           autoComplete="off"
         />
